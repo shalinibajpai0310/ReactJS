@@ -16,7 +16,7 @@ class ProductApp extends React.Component {
          return this.state.products;
      }
 	render() {
-		return <div><ProductForm/><ProductTable products={this.getProducts}/></div>
+		return <div><ProductForm data={this.getProducts} /><ProductTable products={this.getProducts}/></div>
 	}
 }
 
