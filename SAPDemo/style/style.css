@@ -1,0 +1,36 @@
+html,
+body {
+	background-color: #B4CDE1;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+	height: 50px;
+}
+.header:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	top: 0;
+	border-top: 0.25rem solid #009de0;
+	z-index: 7;
+}
+.header .title {
+	font-size: 20px;
+	color: #346187;
+	text-align: center;
+	margin: 12px auto;
+}
+.header .title .search {
+	float: right;
+	position: relative;
+	right: 50px;
+	color: #666666;
+}
+
+.header .title .user {
+	float: left;
+	color: #666666;
+}
