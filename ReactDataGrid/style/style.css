@@ -1,0 +1,168 @@
+html,
+body {
+	background-color: #B4CDE1;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+	height: 50px;
+	padding: 8px 0px;
+}
+hr {
+	border-top: 0.4rem solid #009de0;
+	margin: 0px;
+}
+.title {
+	font-size: 20px;
+	color: #346187;
+	text-align: center;
+}
+.search {
+	color: #666666;
+	text-align: center;
+}
+.user-icons {
+	float: left;
+	position: relative;
+	left: 50px;
+	color: #666666;
+	top: 10px;
+}
+.sap-img {
+	display: inline-block;
+	background-image: url(../resources/images/sap-logo.png);
+	height: 33px;
+	width: 66px;
+	background-size: 85% 85%;
+	background-repeat: no-repeat;
+}
+.icon {
+	margin: 5px 10px;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 24px;
+}
+.welcome {
+	height: 50px;
+	background-color: #E9F4F9;
+	margin-bottom: 15px;
+}
+.welcome span {
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.tile-box-title{
+	font-size: 20px;
+    /*padding-left: 10px;*/
+    display: block;
+    padding-top: 10px;
+}
+
+.quick-link-title
+{
+	font-size: 19px; 
+	padding: 10px;
+}
+
+.tile-link-font{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.quick-link-title > a , .tile-link-font > a{
+	 color: #00679e;
+}
+
+.bar {
+   fill: rgb(92, 186, 230);
+}
+
+.tiles{
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #b8b6b8;	
+}
+
+.tile-icon {
+    /*padding-left: 10px;*/
+    padding-right: 20px;
+    font-size: xx-large;
+}
+
+
+.table-display > tr{
+	display: flex;
+}
+
+.alert-link-title {
+    font-size: 16px;
+    /* color: #8CBEDB;*/
+    font-weight: normal;
+	padding-bottom: 15px;
+}
+
+.tiles small{
+	color: #666666;
+}
+
+.table-margin thead tr {
+	font-size: 18px;
+	font-weight: 500px;
+    /*padding-bottom: 10px;*/
+	line-height: 2;
+}
+
+.table-margin tbody tr{
+	color: #666;
+	font-size: 12px;
+	line-height: 2;
+}
+
+.table-margin tbody tr td:nth-child(2) , .link-align > a , .table-offers tbody tr td:nth-child(2){
+	float: right;
+}
+
+.table-offers{
+	width: inherit;
+}
+
+.panel-default > .panel-heading{
+    background:white;
+	border-radius: inherit;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.dropdown-tile3{
+	width: 100%;
+    padding: 5px 10px;
+	border-radius: 0px;
+}
+.dd-container {
+	padding-left: 0px;
+	padding-bottom: inherit;
+}
+
+.dd-container option{
+	padding: 5px 10px;
+}
+
+.axis {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: lightgrey;
+	  shape-rendering: crispEdges;
+	}
+
+.y-grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.y-grid path {
+      stroke-width: 0;
+}
