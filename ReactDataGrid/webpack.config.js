@@ -6,10 +6,10 @@ var config = {
 		filename: 'index.js',
 	},
 
-	devServer:{
-		host: "10.20.4.32",
-		port : "8082"
-	},
+	// devServer:{
+	// 	host: "10.20.4.32",
+	// 	port : "8082"
+	// },
 
 	module: {
 		loaders: [
